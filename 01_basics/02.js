@@ -124,3 +124,27 @@ console.log(product);
 
 console.log("abc" + 2);
 console.log("abd" + 'f');
+
+
+const insta = {
+    username : "shrinand/mat2020",
+    isfollow : true,
+    followers : 444,
+    following : 566
+}
+
+console.log(insta["username"]);
+console.log(insta["isfollow"]);
+console.log(insta["followers"]);
+console.log(insta["following"]);
+
+console.log(insta.username);
+console.log(insta.isfollow);
+console.log(insta.followers);
+console.log(insta.following);
+
+insta.followers = 567;
+console.log(insta["followers"]);
+
+insta["isfollow"] = false;
+console.log(insta.isfollow);
