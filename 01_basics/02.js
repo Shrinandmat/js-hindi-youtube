@@ -66,6 +66,20 @@ console.log(num1 != num2);
 console.log(num1 > num2);
 console.log(num1 < num2);
 
+// Conditional Operators
+let f = 8;
+let g = 2;
+
+
+let cond1 = f > g;
+let cond2 = f === g;
+
+console.log(cond1 && cond2);
+console.log(cond1 || cond2);
+console.log(!(cond2));
+console.log(!(cond2));
+
+
 
 
 
