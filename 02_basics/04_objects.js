@@ -18,4 +18,4 @@ const regularuser = {
     }
 }
 
-console.log(fullname.fullname.firstname);
+console.log(fullname.fullname.userfullname.firstname);
