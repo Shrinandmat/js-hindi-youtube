@@ -36,8 +36,23 @@ console.log(copy); // { a: 1 }
 
 const obj4 = {5 : "c" , 6 : "d"};
 
-const obj5 = Object.assign({} , obj1,obj2, obj4);
+// const obj5 = Object.assign({} , obj1,obj2, obj4);
+// console.log(obj5);
+
+// commonly used way
+const obj5 = {...obj1 , ...obj2};
 console.log(obj5);
+
+const course = {
+  coursename : "JsinHindi",
+  price : "999",
+  courseInstructor : "Hitesh"
+}
+
+// This is destructuring of the object
+const {courseInstructor} = course;
+
+console.log(courseInstructor);
 
 
 
