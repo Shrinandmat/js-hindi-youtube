@@ -41,3 +41,32 @@ function LoginUserMessage(username){
 
 // console.log(LoginUserMessage("Hitesh"));
 console.log(LoginUserMessage());
+
+// This is called as rest operator and we can pass multiple arguments and when we don't know the exact number of arguments
+function calculateCartPrice(...num1){
+    return num1
+}
+
+
+console.log(calculateCartPrice(100,200,400,500));
+
+
+const user = {
+    username : "shrinand",
+    price : 300
+}
+
+// passing object in function
+
+function name(anyobject){
+    console.log(`The username is ${anyobject.username}  and the price is ${anyobject.price}`)
+}
+
+const myarr = [23,45,56,67,78,89];
+
+// passing array in the function
+function printelement(arrele){
+    console.log(arrele[2]);
+}
+
+printelement(myarr);
