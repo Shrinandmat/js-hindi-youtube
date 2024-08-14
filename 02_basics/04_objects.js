@@ -18,4 +18,30 @@ const regularuser = {
     }
 }
 
-console.log(fullname.fullname.userfullname.firstname);
+console.log(regularuser.fullname.userfullname.firstname);
+
+const obj1 = {1 : "a" ,2 : "b"};
+const obj2 = {3 : "c" , 4 : "d"};
+const obj3 = Object.assign(obj1,obj2); 
+
+
+console.log(obj3);
+
+// cloning of single object
+// assign method stores all the source objects into target objects 
+// so we pass source as empty object
+const obj = { a : 1 };
+const copy = Object.assign({}, obj);
+console.log(copy); // { a: 1 }
+
+const obj4 = {5 : "c" , 6 : "d"};
+
+const obj5 = Object.assign({} , obj1,obj2, obj4);
+console.log(obj5);
+
+
+
+
+
+
+
