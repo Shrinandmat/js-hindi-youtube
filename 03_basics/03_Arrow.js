@@ -24,3 +24,10 @@ function chai(){
 }
 
 chai();
+
+
+const chai = function() {
+    username = "Hitesh";
+    // console.log(this.username); 
+    
+}
