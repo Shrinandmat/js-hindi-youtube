@@ -19,7 +19,8 @@ user.Welcomemessage();
 
 
 function chai(){
-    console.log(this);
+    let username = "Hitesh";
+    // console.log(this.username); // This keyword is used only for objects
 }
 
 chai();
